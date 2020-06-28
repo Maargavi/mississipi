@@ -1,0 +1,12 @@
+string=input("please enter a string")
+string1= sorted(string)
+def most_frequent():
+    dnary = {}
+    for word in string1:
+        if word in dnary.keys():
+            dnary[word]+=1
+        else:
+            dnary[word]=1
+    print (dnary)
+    
+most_frequent()
